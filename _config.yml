@@ -21,7 +21,7 @@ repository               : "Soor1/soor1.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profilePic.jpg"
   name             : "Soor Hansalia"
   pronouns         : # example: "she/her"  
   bio              : "CS Student @ UF | Computer Vision Research Assitant"
