@@ -9,19 +9,16 @@ main:
   # - title: "Teaching"
   #   url: /teaching/    
     
-  - title: "Projects"
-    url: /projects/
+  - title: "Portfolio"
+    url: /portfolio/
         
-  # - title: "Blog Posts"
-  #   url: /year-archive/
+  - title: "Blog Posts"
+    url: /year-archive/
     
   - title: "CV"
-    url: /resume/
+    url: /cv/
     
-  - title: "Resources"
-    url: /resources/
-
-  - title: "Random Episode"
-  url: /random-episode/
+  - title: "Guide"
+    url: /markdown/
 
   
