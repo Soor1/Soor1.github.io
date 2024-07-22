@@ -17,14 +17,14 @@ Work experience
 ======
 * December 2023 - Present: Computer Vision Research Assistant 
   * UF Department of Agcricultural and Biological Engineering
-  * Duties includes: Utilized OCR technology, such as the EasyOCR, to write scripts that read text from over 10,000 images and deployed these scripts on the school’s supercomputer using SLURM for scheduling, Bash for scripting, and SSH for remote access
+  * Duties: Utilized OCR technology, such as the EasyOCR, to write scripts that read text from over 10,000 images and deployed these scripts on the school’s supercomputer using SLURM for scheduling, Bash for scripting, and SSH for remote access
   * Supervisor: Prof. Xu (Kevin) Wang, PI Xue Zhou
   
 Skills
 ======
-Programming Languages: Python, C++, JavaScript, TypeScript, SQL, HTML/CSS
-Technologies/Tools: Pandas, NumPy, SciPy, Matplotlib, Folium, React, Node.js, Express.js, Discord.js, Flask, Handsontable, BeautifulSoup, SQLite, FireBase, SupaBase, Polygon.io, Twilio, GitHub, Roboflow
-Coursework: Data Structures and Algorithms, Programming Fundamentals 1-2, Application of Discrete Structures, Differential Equations, Calculus 1-3
+* Programming Languages: Python, C++, JavaScript, TypeScript, SQL, HTML/CSS
+* Technologies/Tools: Pandas, NumPy, SciPy, Matplotlib, Folium, React, Node.js, Express.js, Discord.js, Flask, Handsontable, BeautifulSoup, SQLite, FireBase, SupaBase, Polygon.io, Twilio, GitHub, Roboflow
+* Coursework: Data Structures and Algorithms, Programming Fundamentals 1-2, Application of Discrete Structures, Differential Equations, Calculus 1-3
 
 <!--- Publications
 ======
