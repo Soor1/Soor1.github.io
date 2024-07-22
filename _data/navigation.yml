@@ -7,7 +7,10 @@ main:
   #   url: /talks/    
 
   # - title: "Teaching"
-  #   url: /teaching/    
+  #   url: /teaching/
+
+  #  - title: "Guide"
+  #    url: /markdown/
     
   - title: "Portfolio"
     url: /portfolio/
@@ -19,7 +22,7 @@ main:
     url: /year-archive/
         
   - title: "Personal Resources"
-    url: /markdown/
+    url: /personal-resources/
 
   - title: "Poop"
     url: /poop/
