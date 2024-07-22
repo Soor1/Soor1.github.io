@@ -11,37 +11,22 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.S. in Computer Science, University of Florida, (In Progress)
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* December 2023 - Present: Computer Vision Research Assistant 
+  * UF Department of Agcricultural and Biological Engineering
+  * Duties includes: Utilized OCR technology, such as the EasyOCR, to write scripts that read text from over 10,000 images and deployed these scripts on the school’s supercomputer using SLURM for scheduling, Bash for scripting, and SSH for remote access
+  * Supervisor: Prof. Xu (Kevin) Wang, PI Xue Zhou
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+Programming Languages: Python, C++, JavaScript, TypeScript, SQL, HTML/CSS
+Technologies/Tools: Pandas, NumPy, SciPy, Matplotlib, Folium, React, Node.js, Express.js, Discord.js, Flask, Handsontable, BeautifulSoup, SQLite, FireBase, SupaBase, Polygon.io, Twilio, GitHub, Roboflow
+Coursework: Data Structures and Algorithms, Programming Fundamentals 1-2, Application of Discrete Structures, Differential Equations, Calculus 1-3
 
-Publications
+<!--- Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
@@ -58,7 +43,11 @@ Teaching
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+--->
   
-Service and leadership
+Leadership
 ======
-* Currently signed in to 43 different slack teams
+* Freshman Leadership Engineering Group
+  * Flegacy Ambassador: Worked with 9 committee members to coordinate events and mentorship between alumni and current club members
+  * External Affairs Ambassador: Coordinated a corporate mixer with 13 peers, managing event logistics and liaising with 200 industry representatives
+  * Collegiate Affairs Ambassador: Collaborated with 9 committee members to plan and host 6 professional development events for first-year engineers 
