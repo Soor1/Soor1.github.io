@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -46,8 +46,10 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. --->
+More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. 
+💰👨‍💻🍳🐊
+--->
 
-My name is Soor Hansalia and I'm a Computer Science major at the University of Florida🐊. I'm extremely passionate about learning new technologies and making cool things. Additionally, I love cooking, working out, and niche personal finance hacks💰.
+My name is Soor Hansalia and I'm a Computer Science major at the University of Florida. I'm extremely passionate about learning new technologies and making cool things. Additionally, I love cooking, working out, and niche personal finance hacks.
 
-If you have any interesting project ideas👨‍💻 or want to discuss why cast iron pans are the best pans🍳, please reach out!
+If you have any interesting project ideas or want to discuss why cast iron pans are the best pans, please reach out!
