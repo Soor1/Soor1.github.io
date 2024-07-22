@@ -1,13 +1,13 @@
 ---
 permalink: /markdown/
-title: "Markdown"
+title: "Personal Resources"
 author_profile: true
 redirect_from: 
   - /md/
   - /markdown.html
 ---
 
-## Locations of key files/directories
+<!--- ## Locations of key files/directories
 
 * Basic config options: _config.yml
 * Top navigation bar config: _data/navigation.yml
@@ -259,6 +259,10 @@ This allows you to denote <var>variables</var>.
 
 ***
 **Footnotes**
-
 The footnotes in the page will be returned following this line, return to the section on <a href="#footnotes">Markdown Footnotes</a>.
+--->
+
+## Terminal Commands
+
+## Nvim Commands
 
