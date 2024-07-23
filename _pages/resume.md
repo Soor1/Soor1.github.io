@@ -15,8 +15,8 @@ Work experience
 ======
 * Computer Vision Research Assistant, December 2023 - Present: 
   * UF Department of Agricultural and Biological Engineering
-  * Duties: Utilized OCR technology, such as the EasyOCR, to write scripts that read text from over 10,000 images and deployed these scripts on the school’s supercomputer using SLURM for scheduling, Bash for scripting, and SSH for remote access
-  * Supervisor: Prof. Xu (Kevin) Wang, PI Xue Zhou
+  * Utilized OCR technology, such as the EasyOCR, to write scripts that read text from over 10,000 images and deployed these scripts on the school’s supercomputer using SLURM for scheduling, Bash for scripting, and SSH for remote access
+  * Supervisors: Prof. Xu (Kevin) Wang, PI Xue Zhou
   
 Skills
 ======
