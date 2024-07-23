@@ -15,8 +15,8 @@ main:
   - title: "Portfolio"
     url: /portfolio/
 
-  - title: "CV"
-    url: /cv/
+  - title: "Resume"
+    url: /resume/
         
   - title: "Blog Posts"
     url: /year-archive/
@@ -24,7 +24,7 @@ main:
   - title: "Personal Resources"
     url: /personal-resources/
 
-  - title: "Poop"
-    url: /poop/
+  # - title: "Poop"
+  #   url: /poop/
 
   
