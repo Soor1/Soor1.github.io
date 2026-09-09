@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <title>Soor Hansalia</title>
+</head>
+
+<body>
+<nav>
+    <a href="#home">Home</a>
+    <a href="#school">School</a>
+    <a href="#rtl">RTL</a>
+    <a href="#cool-stuff">Cool Stuff</a>
+</nav>
+<hr>
+
+<section id="home">
+  <h1>Soor Hansalia</h1>
+
+  <p>University of Florida</p>
+  <p>Computer Engineering</p>
+
+  <p>
+      <a href="mailto:soorhansaliajobs@gmail.com">Email</a>
+      <a href="tel:4073834106">Phone</a>
+      <a href="https://www.linkedin.com/in/soor-hansalia/">LinkedIn</a>
+  </p>
+</section>
+
+
+<section id="school">
+  <h1>School</h1>
+</section>
+
+<section id="rtl">
+  <h1>RTL</h1>
+    <h2>Design</h2>
+      <h3>VHDL</h3>
+
+        <h4>Project Template</h4>
+        <pre><code>
+          library ieee;
+          use ieee.std_logic_1164.all;
+          use ieee.numeric_std.all;
+
+          entity my_entity is
+              generic (
+                WIDTH : positive := 16
+              );
+              port (
+                  clk : in  std_logic;
+                  rst : in  std_logic;
+                  input : in  std_logic_vector(WIDTH-1 downto 0);
+                  output : out std_logic_vector(WIDTH-1 downto 0)
+              );
+          end entity my_entity;
+
+          architecture rtl of my_entity is
+          begin
+ 
+          end architecture rtl;
+        </code></pre>
+        
+        <h4>Structural</h4>
+        <pre><code>
+          library ieee;
+          use ieee.std_logic_1164.all;
+          use ieee.numeric_std.all;
+
+          entity my_entity is
+              generic (
+                WIDTH : positive := 16
+              );
+              port (
+                  clk : in  std_logic;
+                  rst : in  std_logic;
+                  input1 : in  std_logic_vector(WIDTH-1 downto 0);
+                  input2 : in  std_logic_vector(WIDTH-1 downto 0);
+                  output : out std_logic_vector(WIDTH-1 downto 0)
+              );
+          end entity my_entity;
+
+          architecture rtl of my_entity is
+            signal my_signal : std_logic;
+
+            component my_component
+              generic (
+                WIDTH : positive := 16
+              );
+              port (
+                clk : in std_logic;
+                rst : in std_logic;
+                in1 : in std_logic_vector(WIDTH-1 downto 0);
+                in2 : in std_logic_vector(WIDTH-1 downto 0);
+                output : out std_logic_vector((WIDTH*2)-1 downto 0)
+              );
+            end component;
+          begin
+            my_component0 : my_component
+              generic map(
+                WIDTH => WIDTH
+              );
+              port map(
+                clk => clk,
+                rst => rst,
+                in1 => input1,
+                in2 => input2,
+                output => output;
+              );
+          end architecture rtl;
+        </code></pre>
+
+        <h4>Combinational Logic</h4>
+          <h5>Multiplexer (Ex. 2x1 Mux)</h5>
+          <pre><code>
+            with sel select 
+              output <=
+                in0 when "0",
+                in1 when others; -- 1
+          </code></pre>
+
+        <h4>Sequential Logic</h4>
+
+        <h4>Conditional Logic</h4>
+          <h5>If-Else</h5>
+            <h6>
+              Different paths have different delays (first is the fastest)
+              Will synthesize to a priority encoder
+            </h6>
+            <pre><code>
+              process(clk)
+              begin
+                if (sel = "00") then
+                  output <= in0;
+                elsif (sel = "01") then
+                  output <= in1;
+                elsif (sel = "10") then
+                  output <= in2;
+                else -- 11
+                  output <= in3;
+                end;
+              end process;
+            </code></pre>
+          <h5>With-Select</h5>
+            <h6>
+              Concurrent (Use outside of process block)
+              Can only assign values to one signal at a time
+            </h6>
+            <pre><code>
+              with sel select 
+                output <=
+                  in0 when "00",
+                  in1 when "01",
+                  in2 when "10",
+                  in3 when others; -- 11
+            </code></pre>
+          <h5>Case-When</h5>
+            <h6>
+              Sequential (Use inside process block)
+              Can assign multiple signals/variables per branch
+            </h6>
+            <pre><code>
+              case sel is
+                when "00" => 
+                  output <= in0;
+                when "01" => 
+                  output <= in1;
+                when "10" => 
+                  output <= in2;
+                when others => -- 11
+                  output <= in3;
+            </code></pre>
+
+        <h4>Math</h4>
+
+      <h3>SystemVerilog</h3>
+    <h2>Jobs</h2>
+</section>
+
+
+<section id="cool-stuff">
+  <h1>Cool Stuff</h1>
+    <h2>Reading</h2>
+</section>
+
+</body>
+</html>

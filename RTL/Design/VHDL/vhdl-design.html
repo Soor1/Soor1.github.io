@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <title>VHDL Design - Soor Hansalia</title>
+</head>
+
+<body>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="school.html">School</a>
+    <a href="rtl.html">RTL</a>
+    <a href="jobs.html">Jobs</a>
+    <a href="cool-stuff.html">Cool Stuff</a>
+</nav>
+
+<hr>
+
+<h1>VHDL Design</h1>
+
+<h2>Project Template</h2>
+
+<pre><code>library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity my_entity is
+    generic (
+        WIDTH : positive := 16
+    );
+    port (
+        clk : in  std_logic;
+        rst : in  std_logic;
+        input : in  std_logic_vector(WIDTH-1 downto 0);
+        output : out std_logic_vector(WIDTH-1 downto 0)
+    );
+end entity my_entity;
+
+architecture rtl of my_entity is
+begin
+
+end architecture rtl;</code></pre>
+
+<h2>Structural</h2>
+
+<pre><code>library ieee;
+use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
+
+entity my_entity is
+    generic (
+        WIDTH : positive := 16
+    );
+    port (
+        clk : in  std_logic;
+        rst : in  std_logic;
+        input1 : in  std_logic_vector(WIDTH-1 downto 0);
+        input2 : in  std_logic_vector(WIDTH-1 downto 0);
+        output : out std_logic_vector(WIDTH-1 downto 0)
+    );
+end entity my_entity;
+
+architecture rtl of my_entity is
+    signal my_signal : std_logic;
+
+    component my_component
+        generic (
+            WIDTH : positive := 16
+        );
+        port (
+            clk : in std_logic;
+            rst : in std_logic;
+            in1 : in std_logic_vector(WIDTH-1 downto 0);
+            in2 : in std_logic_vector(WIDTH-1 downto 0);
+            output : out std_logic_vector((WIDTH*2)-1 downto 0)
+        );
+    end component;
+
+begin
+
+    my_component0 : my_component
+        generic map(
+            WIDTH => WIDTH
+        )
+        port map(
+            clk => clk,
+            rst => rst,
+            in1 => input1,
+            in2 => input2,
+            output => output
+        );
+
+end architecture rtl;</code></pre>
+
+<h2>Combinational Logic</h2>
+
+<h3>Multiplexer</h3>
+
+<pre><code>with sel select
+    output <=
+        in0 when "0",
+        in1 when others;</code></pre>
+
+<h2>Sequential Logic</h2>
+
+<h2>Conditional Logic</h2>
+
+<h3>If-Else</h3>
+
+<p>
+Different paths have different delays (first is the fastest).
+Will synthesize to a priority encoder.
+</p>
+
+<pre><code>process(clk)
+begin
+    if (sel = "00") then
+        output <= in0;
+    elsif (sel = "01") then
+        output <= in1;
+    elsif (sel = "10") then
+        output <= in2;
+    else
+        output <= in3;
+    end if;
+end process;</code></pre>
+
+<h3>With-Select</h3>
+
+<p>
+Concurrent. Use outside of a process block.
+Can only assign values to one signal at a time.
+</p>
+
+<pre><code>with sel select
+    output <=
+        in0 when "00",
+        in1 when "01",
+        in2 when "10",
+        in3 when others;</code></pre>
+
+<h3>Case-When</h3>
+
+<p>
+Sequential. Use inside a process block.
+Can assign multiple signals or variables per branch.
+</p>
+
+<pre><code>case sel is
+    when "00" =>
+        output <= in0;
+    when "01" =>
+        output <= in1;
+    when "10" =>
+        output <= in2;
+    when others =>
+        output <= in3;
+end case;</code></pre>
+
+<h2>Math</h2>
+
+</body>
+</html>
